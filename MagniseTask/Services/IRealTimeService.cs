@@ -1,6 +1,8 @@
-﻿namespace MagniseTask.Services;
+﻿using MagniseTask.Data.Helpers;
+
+namespace MagniseTask.Services;
 
 public interface IRealTimeService
 {
-    public Task Subscribe (string symbol, string instrumentId);
+    public  Task<RealTimeQuoteDto> GetRealTimeQuote (string symbol, string instrumentId);
 }

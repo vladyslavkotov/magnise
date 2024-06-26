@@ -1,5 +1,6 @@
 using MagniseTask.Data;
 using MagniseTask.Data.Dtos;
+using MagniseTask.Data.Helpers;
 using MagniseTask.Data.Models;
 using MagniseTask.Services;
 using Microsoft.AspNetCore.Mvc;
@@ -7,7 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace MagniseTask.Controllers;
 
 [ApiController]
-[Route ("[controller]")]
+[Route ("api/v1")]
 public class PriceController : ControllerBase
 {
     private readonly IInstrumentRepository _instrumentRepository;
@@ -21,14 +22,14 @@ public class PriceController : ControllerBase
         _realTimeService = realTimeService;
     }
 
-    [HttpGet ("all")]
+    [HttpGet ("instruments/all")]
     public async Task<ActionResult<IEnumerable<InstrumentDto>>> GetAllInstrumentsEndpoint ()
     {
         var instruments = await _instrumentRepository.GetAllInstruments ();
         return Ok (instruments.Select (x => new InstrumentDto (x.Symbol, x.Kind, x.Description, x.TickSize, x.Currency, x.BaseCurrency)));
     }
 
-    [HttpGet ("countBack")]
+    [HttpGet ("price/historical-candles/")]
     public async Task<ActionResult<IEnumerable<CandleDto>>> GetCountBackEndpoint (string symbol, int interval, string periodicity, int barsCount)
     {
         var instrumentId = await _instrumentRepository.GetInstrumentIdAsync (symbol);
@@ -47,16 +48,16 @@ public class PriceController : ControllerBase
         return NotFound ();
     }
 
-    [HttpPost ("subscribe")]
-    public async Task<ActionResult> Subscribe (string symbol)
+    [HttpGet ("price/real-time-quote")]
+    public async Task<ActionResult<RealTimeQuoteDto>> GetRealTimeQuote (string symbol)
     {
         var instrumentId = await _instrumentRepository.GetInstrumentIdAsync (symbol);
         if ( instrumentId is not null )
         {
             try
             {
-                await _realTimeService.Subscribe (symbol, instrumentId);
-                return Ok ();
+                var realTimeQuote = await _realTimeService.GetRealTimeQuote (symbol, instrumentId);
+                return Ok (realTimeQuote);
             }
             catch ( HttpRequestException ex )
             {

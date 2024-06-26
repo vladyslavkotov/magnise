@@ -1,6 +1,6 @@
 ﻿namespace MagniseTask.Data.Helpers;
 
-public class Price
+public class RealTimeQuote
 {
     public double AskPrice { get; set; } = 0;
     public double BidPrice { get; set; } = 0;
@@ -34,4 +34,6 @@ public class Price
         LastVolume = volume;
         LastUpd = DateTime.Parse (upd, null, System.Globalization.DateTimeStyles.RoundtripKind);
     }
+
+    public bool IsCompleted { get => AskPrice != 0 && BidPrice != 0 && LastPrice != 0; }
 }
