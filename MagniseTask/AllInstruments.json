@@ -1,0 +1,1399 @@
+{
+	"paging": {
+		"page": 1,
+		"pages": 1,
+		"items": 60
+	},
+	"data": [
+		{
+			"id": "ad9e5345-4c3b-41fc-9437-1d253f62db52",
+			"symbol": "AUD/CAD",
+			"kind": "forex",
+			"description": "AUD/CAD",
+			"tickSize": 0.00001,
+			"currency": "CAD",
+			"baseCurrency": "AUD",
+			"mappings": {
+				"active-tick": {
+					"symbol": "AUD/CAD_CFI",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"simulation": {
+					"symbol": "AUDCAD",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"oanda": {
+					"symbol": "AUD_CAD",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				}
+			}
+		},
+		{
+			"id": "e394fa5b-bba1-45fe-b7b9-7e7c0124425b",
+			"symbol": "AUD/CHF",
+			"kind": "forex",
+			"description": "AUD/CHF",
+			"tickSize": 0.00001,
+			"currency": "CHF",
+			"baseCurrency": "AUD",
+			"mappings": {
+				"oanda": {
+					"symbol": "AUD_CHF",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"simulation": {
+					"symbol": "AUDCHF",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"active-tick": {
+					"symbol": "AUD/CHF_CFI",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				}
+			}
+		},
+		{
+			"id": "7fd43865-35af-4de6-9c25-9a6684292ce3",
+			"symbol": "AUD/JPY",
+			"kind": "forex",
+			"description": "AUD/JPY",
+			"tickSize": 0.00001,
+			"currency": "JPY",
+			"baseCurrency": "AUD",
+			"mappings": {
+				"active-tick": {
+					"symbol": "AUD/JPY_CFI",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"oanda": {
+					"symbol": "AUD_JPY",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"simulation": {
+					"symbol": "AUDJPY",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				}
+			}
+		},
+		{
+			"id": "6f772323-e675-4a0e-89e6-ad8673274936",
+			"symbol": "AUD/NZD",
+			"kind": "forex",
+			"description": "AUD/NZD",
+			"tickSize": 0.00001,
+			"currency": "NZD",
+			"baseCurrency": "AUD",
+			"mappings": {
+				"oanda": {
+					"symbol": "AUD_NZD",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"simulation": {
+					"symbol": "AUDNZD",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"active-tick": {
+					"symbol": "AUD/NZD_CFI",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				}
+			}
+		},
+		{
+			"id": "8cfd88cb-a9df-4b38-8032-e68036cc1a2b",
+			"symbol": "AUD/SGD",
+			"kind": "forex",
+			"description": "AUD/SGD",
+			"tickSize": 0.00001,
+			"currency": "SGD",
+			"baseCurrency": "AUD",
+			"mappings": {
+				"active-tick": {
+					"symbol": "AUD/SGD_CFI",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"oanda": {
+					"symbol": "AUD_SGD",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				}
+			}
+		},
+		{
+			"id": "db1246ba-3bb4-4945-8012-381754baab0e",
+			"symbol": "AUD/USD",
+			"kind": "forex",
+			"description": "AUD/USD",
+			"tickSize": 0.00001,
+			"currency": "USD",
+			"baseCurrency": "AUD",
+			"mappings": {
+				"oanda": {
+					"symbol": "AUD_USD",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"dxfeed": {
+					"symbol": "AUD/USD",
+					"exchange": "MSFX",
+					"defaultOrderSize": 10000
+				},
+				"active-tick": {
+					"symbol": "AUD/USD_CFI",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"simulation": {
+					"symbol": "AUDUSD",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				}
+			}
+		},
+		{
+			"id": "63d4a5b6-351f-41a0-969f-6e5bfcd32fcd",
+			"symbol": "CAD/CHF",
+			"kind": "forex",
+			"description": "CAD/CHF",
+			"tickSize": 0.00001,
+			"currency": "CHF",
+			"baseCurrency": "CAD",
+			"mappings": {
+				"oanda": {
+					"symbol": "CAD_CHF",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"active-tick": {
+					"symbol": "CAD/CHF_CFI",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"simulation": {
+					"symbol": "CADCHF",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				}
+			}
+		},
+		{
+			"id": "054dc5aa-7d4e-45b5-abea-11cb24823ce4",
+			"symbol": "CAD/JPY",
+			"kind": "forex",
+			"description": "CAD/JPY",
+			"tickSize": 0.00001,
+			"currency": "JPY",
+			"baseCurrency": "CAD",
+			"mappings": {
+				"active-tick": {
+					"symbol": "CAD/JPY_CFI",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"simulation": {
+					"symbol": "CADJPY",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"oanda": {
+					"symbol": "CAD_JPY",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				}
+			}
+		},
+		{
+			"id": "ba827038-6bff-4fd6-b9fc-40e68cf1701f",
+			"symbol": "CHF/JPY",
+			"kind": "forex",
+			"description": "CHF/JPY",
+			"tickSize": 0.00001,
+			"currency": "JPY",
+			"baseCurrency": "CHF",
+			"mappings": {
+				"active-tick": {
+					"symbol": "CHF/JPY_CFI",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"oanda": {
+					"symbol": "CHF_JPY",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"simulation": {
+					"symbol": "CHFJPY",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				}
+			}
+		},
+		{
+			"id": "ec46af30-414b-439c-bda2-35506405a0fd",
+			"symbol": "EUR/AUD",
+			"kind": "forex",
+			"description": "EUR/AUD",
+			"tickSize": 0.00001,
+			"currency": "AUD",
+			"baseCurrency": "EUR",
+			"mappings": {
+				"oanda": {
+					"symbol": "EUR_AUD",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"simulation": {
+					"symbol": "EURAUD",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"active-tick": {
+					"symbol": "EUR/AUD_CFI",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				}
+			}
+		},
+		{
+			"id": "ec15a527-5a7c-47ac-9357-24a051efaa1e",
+			"symbol": "EUR/CAD",
+			"kind": "forex",
+			"description": "EUR/CAD",
+			"tickSize": 0.00001,
+			"currency": "CAD",
+			"baseCurrency": "EUR",
+			"mappings": {
+				"active-tick": {
+					"symbol": "EUR/CAD_CFI",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"simulation": {
+					"symbol": "EURCAD",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"oanda": {
+					"symbol": "EUR_CAD",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				}
+			}
+		},
+		{
+			"id": "cc3c06aa-db08-4f70-8d53-212b968235b3",
+			"symbol": "EUR/CHF",
+			"kind": "forex",
+			"description": "EUR/CHF",
+			"tickSize": 0.00001,
+			"currency": "CHF",
+			"baseCurrency": "EUR",
+			"mappings": {
+				"active-tick": {
+					"symbol": "EUR/CHF_CFI",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"oanda": {
+					"symbol": "EUR_CHF",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"simulation": {
+					"symbol": "EURCHF",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				}
+			}
+		},
+		{
+			"id": "97e94b9d-1e86-4f4b-8f53-de455a35657e",
+			"symbol": "EUR/CZK",
+			"kind": "forex",
+			"description": "EUR/CZK",
+			"tickSize": 0.00001,
+			"currency": "CZK",
+			"baseCurrency": "EUR",
+			"mappings": {
+				"active-tick": {
+					"symbol": "EUR/CZK_CFI",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"oanda": {
+					"symbol": "EUR_CZK",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				}
+			}
+		},
+		{
+			"id": "9ca2cb19-7f3c-4e9c-a62d-ed3de2197e3a",
+			"symbol": "EUR/DKK",
+			"kind": "forex",
+			"description": "EUR/DKK",
+			"tickSize": 0.00001,
+			"currency": "DKK",
+			"baseCurrency": "EUR",
+			"mappings": {
+				"active-tick": {
+					"symbol": "EUR/DKK_CFI",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"oanda": {
+					"symbol": "EUR_DKK",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				}
+			}
+		},
+		{
+			"id": "6aa6b522-4de6-454e-b5b9-c08a67089206",
+			"symbol": "EUR/GBP",
+			"kind": "forex",
+			"description": "EUR/GBP",
+			"tickSize": 0.00001,
+			"currency": "GBP",
+			"baseCurrency": "EUR",
+			"mappings": {
+				"dxfeed": {
+					"symbol": "EUR/GBP",
+					"exchange": "MSFX",
+					"defaultOrderSize": 10000
+				},
+				"active-tick": {
+					"symbol": "EUR/GBP_CFI",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"oanda": {
+					"symbol": "EUR_GBP",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"simulation": {
+					"symbol": "EURGBP",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				}
+			}
+		},
+		{
+			"id": "8901c6c8-c61b-4e58-b3bd-9203f090d1bb",
+			"symbol": "EUR/HKD",
+			"kind": "forex",
+			"description": "EUR/HKD",
+			"tickSize": 0.00001,
+			"currency": "HKD",
+			"baseCurrency": "EUR",
+			"mappings": {
+				"active-tick": {
+					"symbol": "EUR/HKD_CFI",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"oanda": {
+					"symbol": "EUR_HKD",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				}
+			}
+		},
+		{
+			"id": "3ced9bc2-a1a8-4005-969d-61167aa55f60",
+			"symbol": "EUR/HUF",
+			"kind": "forex",
+			"description": "EUR/HUF",
+			"tickSize": 0.00001,
+			"currency": "HUF",
+			"baseCurrency": "EUR",
+			"mappings": {
+				"active-tick": {
+					"symbol": "EUR/HUF_CFI",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"oanda": {
+					"symbol": "EUR_HUF",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				}
+			}
+		},
+		{
+			"id": "fd7d35bc-271e-4000-b18d-257b4d505ee5",
+			"symbol": "EUR/JPY",
+			"kind": "forex",
+			"description": "EUR/JPY",
+			"tickSize": 0.00001,
+			"currency": "JPY",
+			"baseCurrency": "EUR",
+			"mappings": {
+				"simulation": {
+					"symbol": "EURJPY",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"oanda": {
+					"symbol": "EUR_JPY",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"active-tick": {
+					"symbol": "EUR/JPY_CFI",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				}
+			}
+		},
+		{
+			"id": "a1a105de-c7a5-438b-aa36-b10b45340a36",
+			"symbol": "EUR/NOK",
+			"kind": "forex",
+			"description": "EUR/NOK",
+			"tickSize": 0.00001,
+			"currency": "NOK",
+			"baseCurrency": "EUR",
+			"mappings": {
+				"oanda": {
+					"symbol": "EUR_NOK",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"active-tick": {
+					"symbol": "EUR/NOK_CFI",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				}
+			}
+		},
+		{
+			"id": "e5d968bb-ea0c-4bf1-ab13-00d18ccd806e",
+			"symbol": "EUR/NZD",
+			"kind": "forex",
+			"description": "EUR/NZD",
+			"tickSize": 0.00001,
+			"currency": "NZD",
+			"baseCurrency": "EUR",
+			"mappings": {
+				"oanda": {
+					"symbol": "EUR_NZD",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"active-tick": {
+					"symbol": "EUR/NZD_CFI",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				}
+			}
+		},
+		{
+			"id": "13c655c3-d90c-4fbc-aea3-f9f6740b8151",
+			"symbol": "EUR/PLN",
+			"kind": "forex",
+			"description": "EUR/PLN",
+			"tickSize": 0.00001,
+			"currency": "PLN",
+			"baseCurrency": "EUR",
+			"mappings": {
+				"active-tick": {
+					"symbol": "EUR/PLN_CFI",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"oanda": {
+					"symbol": "EUR_PLN",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				}
+			}
+		},
+		{
+			"id": "3eb64bcf-e262-4e2c-89ce-93dcaf74befd",
+			"symbol": "EUR/SEK",
+			"kind": "forex",
+			"description": "EUR/SEK",
+			"tickSize": 0.00001,
+			"currency": "SEK",
+			"baseCurrency": "EUR",
+			"mappings": {
+				"active-tick": {
+					"symbol": "EUR/SEK_CFI",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"oanda": {
+					"symbol": "EUR_SEK",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				}
+			}
+		},
+		{
+			"id": "b8d56cdf-3c80-43df-af90-5eb3405981c3",
+			"symbol": "EUR/SGD",
+			"kind": "forex",
+			"description": "EUR/SGD",
+			"tickSize": 0.00001,
+			"currency": "SGD",
+			"baseCurrency": "EUR",
+			"mappings": {
+				"oanda": {
+					"symbol": "EUR_SGD",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"active-tick": {
+					"symbol": "EUR/SGD_CFI",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				}
+			}
+		},
+		{
+			"id": "1f42bf6e-de89-4f7f-bf07-f4e4dbd45106",
+			"symbol": "EUR/TRY",
+			"kind": "forex",
+			"description": "EUR/TRY",
+			"tickSize": 0.00001,
+			"currency": "TRY",
+			"baseCurrency": "EUR",
+			"mappings": {
+				"active-tick": {
+					"symbol": "EUR/TRY_CFI",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"oanda": {
+					"symbol": "EUR_TRY",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				}
+			}
+		},
+		{
+			"id": "ebefe2c7-5ac9-43bb-a8b7-4a97bf2c2576",
+			"symbol": "EUR/USD",
+			"kind": "forex",
+			"description": "EUR/USD",
+			"tickSize": 0.00001,
+			"currency": "USD",
+			"baseCurrency": "EUR",
+			"mappings": {
+				"dxfeed": {
+					"symbol": "EUR/USD",
+					"exchange": "MSFX",
+					"defaultOrderSize": 10000
+				},
+				"active-tick": {
+					"symbol": "EUR/USD_CFI",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"oanda": {
+					"symbol": "EUR_USD",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"simulation": {
+					"symbol": "EURUSD",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				}
+			}
+		},
+		{
+			"id": "a5d6e8a3-8915-4143-a9e6-fcc6b769c62a",
+			"symbol": "EUR/ZAR",
+			"kind": "forex",
+			"description": "EUR/ZAR",
+			"tickSize": 0.00001,
+			"currency": "ZAR",
+			"baseCurrency": "EUR",
+			"mappings": {
+				"active-tick": {
+					"symbol": "EUR/ZAR_CFI",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"oanda": {
+					"symbol": "EUR_ZAR",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				}
+			}
+		},
+		{
+			"id": "a03f13c0-ae75-4ab6-8642-a32bd29197c3",
+			"symbol": "GBP/AUD",
+			"kind": "forex",
+			"description": "GBP/AUD",
+			"tickSize": 0.00001,
+			"currency": "AUD",
+			"baseCurrency": "GBP",
+			"mappings": {
+				"simulation": {
+					"symbol": "GBPAUD",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"oanda": {
+					"symbol": "GBP_AUD",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"active-tick": {
+					"symbol": "GBP/AUD_CFI",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				}
+			}
+		},
+		{
+			"id": "b1cae5a4-1506-4271-a5c6-cb89d481e81d",
+			"symbol": "GBP/CAD",
+			"kind": "forex",
+			"description": "GBP/CAD",
+			"tickSize": 0.00001,
+			"currency": "CAD",
+			"baseCurrency": "GBP",
+			"mappings": {
+				"oanda": {
+					"symbol": "GBP_CAD",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"active-tick": {
+					"symbol": "GBP/CAD_CFI",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				}
+			}
+		},
+		{
+			"id": "44677e52-88f5-44f1-b28d-67c9550be39b",
+			"symbol": "GBP/CHF",
+			"kind": "forex",
+			"description": "GBP/CHF",
+			"tickSize": 0.00001,
+			"currency": "CHF",
+			"baseCurrency": "GBP",
+			"mappings": {
+				"simulation": {
+					"symbol": "GBPCHF",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"active-tick": {
+					"symbol": "GBP/CHF_CFI",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"oanda": {
+					"symbol": "GBP_CHF",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				}
+			}
+		},
+		{
+			"id": "44067867-6e1d-4457-8d27-815d3b748dfb",
+			"symbol": "GBP/HKD",
+			"kind": "forex",
+			"description": "GBP/HKD",
+			"tickSize": 0.00001,
+			"currency": "HKD",
+			"baseCurrency": "GBP",
+			"mappings": {
+				"active-tick": {
+					"symbol": "GBP/HKD_CFI",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"oanda": {
+					"symbol": "GBP_HKD",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				}
+			}
+		},
+		{
+			"id": "ffb77545-8df1-4aa4-b089-8450ef2d5127",
+			"symbol": "GBP/JPY",
+			"kind": "forex",
+			"description": "GBP/JPY",
+			"tickSize": 0.00001,
+			"currency": "JPY",
+			"baseCurrency": "GBP",
+			"mappings": {
+				"simulation": {
+					"symbol": "GBPJPY",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"oanda": {
+					"symbol": "GBP_JPY",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"active-tick": {
+					"symbol": "GBP/JPY_CFI",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				}
+			}
+		},
+		{
+			"id": "1de99f28-e485-4a19-8129-175859c5686f",
+			"symbol": "GBP/NZD",
+			"kind": "forex",
+			"description": "GBP/NZD",
+			"tickSize": 0.00001,
+			"currency": "NZD",
+			"baseCurrency": "GBP",
+			"mappings": {
+				"oanda": {
+					"symbol": "GBP_NZD",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"active-tick": {
+					"symbol": "GBP/NZD_CFI",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				}
+			}
+		},
+		{
+			"id": "3582ced3-1010-4de8-a25d-e52131b225b7",
+			"symbol": "GBP/PLN",
+			"kind": "forex",
+			"description": "GBP/PLN",
+			"tickSize": 0.00001,
+			"currency": "PLN",
+			"baseCurrency": "GBP",
+			"mappings": {
+				"oanda": {
+					"symbol": "GBP_PLN",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"active-tick": {
+					"symbol": "GBP/PLN_CFI",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				}
+			}
+		},
+		{
+			"id": "754a0bd4-bf17-463f-abc2-19ab17d2664d",
+			"symbol": "GBP/SGD",
+			"kind": "forex",
+			"description": "GBP/SGD",
+			"tickSize": 0.00001,
+			"currency": "SGD",
+			"baseCurrency": "GBP",
+			"mappings": {
+				"active-tick": {
+					"symbol": "GBP/SGD_CFI",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"oanda": {
+					"symbol": "GBP_SGD",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				}
+			}
+		},
+		{
+			"id": "5071e03c-80d3-4b28-870d-28533306c8c6",
+			"symbol": "GBP/USD",
+			"kind": "forex",
+			"description": "GBP/USD",
+			"tickSize": 0.00001,
+			"currency": "USD",
+			"baseCurrency": "GBP",
+			"mappings": {
+				"oanda": {
+					"symbol": "GBP_USD",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"active-tick": {
+					"symbol": "GBP/USD_CFI",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"dxfeed": {
+					"symbol": "GBP/USD",
+					"exchange": "MSFX",
+					"defaultOrderSize": 10000
+				},
+				"simulation": {
+					"symbol": "GBPUSD",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				}
+			}
+		},
+		{
+			"id": "31634530-5aee-4359-b238-230b2fc9c271",
+			"symbol": "GBP/ZAR",
+			"kind": "forex",
+			"description": "GBP/ZAR",
+			"tickSize": 0.00001,
+			"currency": "ZAR",
+			"baseCurrency": "GBP",
+			"mappings": {
+				"oanda": {
+					"symbol": "GBP_ZAR",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"active-tick": {
+					"symbol": "GBP/ZAR_CFI",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				}
+			}
+		},
+		{
+			"id": "410f162d-eeb6-4eac-80e6-5bd20245898a",
+			"symbol": "HKD/JPY",
+			"kind": "forex",
+			"description": "HKD/JPY",
+			"tickSize": 0.00001,
+			"currency": "JPY",
+			"baseCurrency": "HKD",
+			"mappings": {
+				"oanda": {
+					"symbol": "HKD_JPY",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"active-tick": {
+					"symbol": "HKD/JPY_CFI",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				}
+			}
+		},
+		{
+			"id": "283e88ce-818f-46ec-8054-fd8cf5fadd78",
+			"symbol": "NZD/CAD",
+			"kind": "forex",
+			"description": "NZD/CAD",
+			"tickSize": 0.00001,
+			"currency": "CAD",
+			"baseCurrency": "NZD",
+			"mappings": {
+				"oanda": {
+					"symbol": "NZD_CAD",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"active-tick": {
+					"symbol": "NZD/CAD_CFI",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				}
+			}
+		},
+		{
+			"id": "12528e8e-0b47-4380-87ed-e02c97abd64f",
+			"symbol": "NZD/CHF",
+			"kind": "forex",
+			"description": "NZD/CHF",
+			"tickSize": 0.00001,
+			"currency": "CHF",
+			"baseCurrency": "NZD",
+			"mappings": {
+				"oanda": {
+					"symbol": "NZD_CHF",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"active-tick": {
+					"symbol": "NZD/CHF_CFI",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				}
+			}
+		},
+		{
+			"id": "218209d8-951c-4b41-8156-a4f73124c093",
+			"symbol": "NZD/JPY",
+			"kind": "forex",
+			"description": "NZD/JPY",
+			"tickSize": 0.00001,
+			"currency": "JPY",
+			"baseCurrency": "NZD",
+			"mappings": {
+				"active-tick": {
+					"symbol": "NZD/JPY_CFI",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"oanda": {
+					"symbol": "NZD_JPY",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				}
+			}
+		},
+		{
+			"id": "6e3a7ef2-52db-437a-80da-d0fb6691a903",
+			"symbol": "NZD/USD",
+			"kind": "forex",
+			"description": "NZD/USD",
+			"tickSize": 0.00001,
+			"currency": "USD",
+			"baseCurrency": "NZD",
+			"mappings": {
+				"oanda": {
+					"symbol": "NZD_USD",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"active-tick": {
+					"symbol": "NZD/USD_CFI",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				}
+			}
+		},
+		{
+			"id": "dfe7fa0e-9da0-4502-9038-cd5270a15788",
+			"symbol": "SGD/JPY",
+			"kind": "forex",
+			"description": "SGD/JPY",
+			"tickSize": 0.00001,
+			"currency": "JPY",
+			"baseCurrency": "SGD",
+			"mappings": {
+				"active-tick": {
+					"symbol": "SGD/JPY_CFI",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"oanda": {
+					"symbol": "SGD_JPY",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				}
+			}
+		},
+		{
+			"id": "f21e794c-703e-4b08-82bd-889dfb4bf534",
+			"symbol": "TRY/JPY",
+			"kind": "forex",
+			"description": "TRY/JPY",
+			"tickSize": 0.00001,
+			"currency": "JPY",
+			"baseCurrency": "TRY",
+			"mappings": {
+				"oanda": {
+					"symbol": "TRY_JPY",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"active-tick": {
+					"symbol": "TRY/JPY_CFI",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				}
+			}
+		},
+		{
+			"id": "fc34928e-cc93-4009-bc4e-578e20a7d77b",
+			"symbol": "USD/CAD",
+			"kind": "forex",
+			"description": "USD/CAD",
+			"tickSize": 0.00001,
+			"currency": "CAD",
+			"baseCurrency": "USD",
+			"mappings": {
+				"simulation": {
+					"symbol": "USDCAD",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"active-tick": {
+					"symbol": "USD/CAD_CFI",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"oanda": {
+					"symbol": "USD_CAD",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				}
+			}
+		},
+		{
+			"id": "7d6cc901-3fcd-4542-96b4-4223a861ff8a",
+			"symbol": "USD/CHF",
+			"kind": "forex",
+			"description": "USD/CHF",
+			"tickSize": 0.00001,
+			"currency": "CHF",
+			"baseCurrency": "USD",
+			"mappings": {
+				"simulation": {
+					"symbol": "USDCHF",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"dxfeed": {
+					"symbol": "USD/CHF",
+					"exchange": "MSFX",
+					"defaultOrderSize": 10000
+				},
+				"oanda": {
+					"symbol": "USD_CHF",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"active-tick": {
+					"symbol": "USD/CHF_CFI",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				}
+			}
+		},
+		{
+			"id": "83ca7187-d8a2-4a14-a6bc-ce47ab4d9f4f",
+			"symbol": "USD/CNH",
+			"kind": "forex",
+			"description": "USD/CNH",
+			"tickSize": 0.00001,
+			"currency": "CNH",
+			"baseCurrency": "USD",
+			"mappings": {
+				"oanda": {
+					"symbol": "USD_CNH",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"active-tick": {
+					"symbol": "USD/CNH_CFI",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				}
+			}
+		},
+		{
+			"id": "402f612b-4cac-42c6-beb2-a49fc1c81105",
+			"symbol": "USD/CZK",
+			"kind": "forex",
+			"description": "USD/CZK",
+			"tickSize": 0.00001,
+			"currency": "CZK",
+			"baseCurrency": "USD",
+			"mappings": {
+				"oanda": {
+					"symbol": "USD_CZK",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"active-tick": {
+					"symbol": "USD/CZK_CFI",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				}
+			}
+		},
+		{
+			"id": "51a9f737-f7a7-480d-a26d-8f3840258918",
+			"symbol": "USD/DKK",
+			"kind": "forex",
+			"description": "USD/DKK",
+			"tickSize": 0.00001,
+			"currency": "DKK",
+			"baseCurrency": "USD",
+			"mappings": {
+				"active-tick": {
+					"symbol": "USD/DKK_CFI",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"oanda": {
+					"symbol": "USD_DKK",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				}
+			}
+		},
+		{
+			"id": "5425278b-00ba-4056-9839-659191c878ab",
+			"symbol": "USD/HKD",
+			"kind": "forex",
+			"description": "USD/HKD",
+			"tickSize": 0.00001,
+			"currency": "HKD",
+			"baseCurrency": "USD",
+			"mappings": {
+				"oanda": {
+					"symbol": "USD_HKD",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"active-tick": {
+					"symbol": "USD/HKD_CFI",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				}
+			}
+		},
+		{
+			"id": "52538aa3-16e3-4819-ab44-88a87309a0aa",
+			"symbol": "USD/HUF",
+			"kind": "forex",
+			"description": "USD/HUF",
+			"tickSize": 0.00001,
+			"currency": "HUF",
+			"baseCurrency": "USD",
+			"mappings": {
+				"oanda": {
+					"symbol": "USD_HUF",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"active-tick": {
+					"symbol": "USD/HUF_CFI",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				}
+			}
+		},
+		{
+			"id": "b248897f-1cca-480e-8b48-9077315116c8",
+			"symbol": "USD/JPY",
+			"kind": "forex",
+			"description": "USD/JPY",
+			"tickSize": 0.00001,
+			"currency": "JPY",
+			"baseCurrency": "USD",
+			"mappings": {
+				"dxfeed": {
+					"symbol": "USD/JPY",
+					"exchange": "MSFX",
+					"defaultOrderSize": 10000
+				},
+				"active-tick": {
+					"symbol": "USD/JPY_CFI",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"oanda": {
+					"symbol": "USD_JPY",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				}
+			}
+		},
+		{
+			"id": "ee6a1145-6732-42e3-b3d8-7f066e8ff46f",
+			"symbol": "USD/MXN",
+			"kind": "forex",
+			"description": "USD/MXN",
+			"tickSize": 0.00001,
+			"currency": "MXN",
+			"baseCurrency": "USD",
+			"mappings": {
+				"oanda": {
+					"symbol": "USD_MXN",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"active-tick": {
+					"symbol": "USD/MXN_CFI",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				}
+			}
+		},
+		{
+			"id": "b52a955c-d745-4578-b190-4cadef63ca2b",
+			"symbol": "USD/NOK",
+			"kind": "forex",
+			"description": "USD/NOK",
+			"tickSize": 0.00001,
+			"currency": "NOK",
+			"baseCurrency": "USD",
+			"mappings": {
+				"active-tick": {
+					"symbol": "USD/NOK_CFI",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"oanda": {
+					"symbol": "USD_NOK",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				}
+			}
+		},
+		{
+			"id": "9d3cc762-6f2f-476c-b63c-463bdaff617f",
+			"symbol": "USD/PLN",
+			"kind": "forex",
+			"description": "USD/PLN",
+			"tickSize": 0.00001,
+			"currency": "PLN",
+			"baseCurrency": "USD",
+			"mappings": {
+				"oanda": {
+					"symbol": "USD_PLN",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"active-tick": {
+					"symbol": "USD/PLN_CFI",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				}
+			}
+		},
+		{
+			"id": "8503278c-d6b4-4cde-9fcd-00e17413b1e4",
+			"symbol": "USD/SEK",
+			"kind": "forex",
+			"description": "USD/SEK",
+			"tickSize": 0.00001,
+			"currency": "SEK",
+			"baseCurrency": "USD",
+			"mappings": {
+				"active-tick": {
+					"symbol": "USD/SEK_CFI",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"oanda": {
+					"symbol": "USD_SEK",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				}
+			}
+		},
+		{
+			"id": "6791eb1b-b4b4-4403-961d-9cb5845c06a6",
+			"symbol": "USD/SGD",
+			"kind": "forex",
+			"description": "USD/SGD",
+			"tickSize": 0.00001,
+			"currency": "SGD",
+			"baseCurrency": "USD",
+			"mappings": {
+				"active-tick": {
+					"symbol": "USD/SGD_CFI",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"oanda": {
+					"symbol": "USD_SGD",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				}
+			}
+		},
+		{
+			"id": "68ce24f3-0078-46da-ac28-c112285c76e0",
+			"symbol": "USD/THB",
+			"kind": "forex",
+			"description": "USD/THB",
+			"tickSize": 0.00001,
+			"currency": "THB",
+			"baseCurrency": "USD",
+			"mappings": {
+				"active-tick": {
+					"symbol": "USD/THB_CFI",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"oanda": {
+					"symbol": "USD_THB",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				}
+			}
+		},
+		{
+			"id": "dce1645b-0eea-4d66-a2ce-2e101fd58f4a",
+			"symbol": "USD/TRY",
+			"kind": "forex",
+			"description": "USD/TRY",
+			"tickSize": 0.00001,
+			"currency": "TRY",
+			"baseCurrency": "USD",
+			"mappings": {
+				"oanda": {
+					"symbol": "USD_TRY",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"active-tick": {
+					"symbol": "USD/TRY_CFI",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				}
+			}
+		},
+		{
+			"id": "86664f01-86ae-4e45-b959-a2cf867f5582",
+			"symbol": "USD/ZAR",
+			"kind": "forex",
+			"description": "USD/ZAR",
+			"tickSize": 0.00001,
+			"currency": "ZAR",
+			"baseCurrency": "USD",
+			"mappings": {
+				"oanda": {
+					"symbol": "USD_ZAR",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"active-tick": {
+					"symbol": "USD/ZAR_CFI",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				}
+			}
+		},
+		{
+			"id": "85e47326-8b8b-4f50-a1ea-67a8732e2e51",
+			"symbol": "ZAR/JPY",
+			"kind": "forex",
+			"description": "ZAR/JPY",
+			"tickSize": 0.00001,
+			"currency": "JPY",
+			"baseCurrency": "ZAR",
+			"mappings": {
+				"active-tick": {
+					"symbol": "ZAR/JPY_CFI",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				},
+				"oanda": {
+					"symbol": "ZAR_JPY",
+					"exchange": "",
+					"defaultOrderSize": 10000
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MagniseTask", "MagniseTask.csproj", "{5F2CDB7E-5B13-41FC-AE3A-3401B0AF1979}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagniseTaskTests", "..\MagniseTestTask\MagniseTaskTests.csproj", "{62E3E850-1DF2-49AC-A03B-D0440598347D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5F2CDB7E-5B13-41FC-AE3A-3401B0AF1979} = {5F2CDB7E-5B13-41FC-AE3A-3401B0AF1979}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F2CDB7E-5B13-41FC-AE3A-3401B0AF1979}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F2CDB7E-5B13-41FC-AE3A-3401B0AF1979}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F2CDB7E-5B13-41FC-AE3A-3401B0AF1979}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F2CDB7E-5B13-41FC-AE3A-3401B0AF1979}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62E3E850-1DF2-49AC-A03B-D0440598347D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62E3E850-1DF2-49AC-A03B-D0440598347D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62E3E850-1DF2-49AC-A03B-D0440598347D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62E3E850-1DF2-49AC-A03B-D0440598347D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C864D2A-41F9-4200-B7C0-DC6EBB915BE0}
+	EndGlobalSection
+EndGlobal
